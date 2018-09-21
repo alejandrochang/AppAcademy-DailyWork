@@ -2,7 +2,7 @@
 
 window.setTimeout(function () {
   alert('HAMMER TIME!');
-}, 5000);
+}, 5000); // 5000 ms
 
 // Timeout Plus Closure
 
@@ -57,5 +57,5 @@ const Noodles = new Dog ();
 
 Noodles.chase(Markov);
 
-Noodles.chase.call(Markov, Noodles);
-Noodles.chase.apply(Markov, [Noodles]);
+Noodles.chase.call(Markov, Noodles); // using the calll method
+Noodles.chase.apply(Markov, [Noodles]); // using the apply method
